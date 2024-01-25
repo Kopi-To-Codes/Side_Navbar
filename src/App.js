@@ -12,6 +12,7 @@ function App() {
         <SideNavbar />
         <div className="main-content">
           <Routes>
+            <Route index element={<Dashboard />} />
             <Route path="/Dashboard" element={<Dashboard />} />
             <Route path="/Patient" element={<Patient />} />
             <Route path="/Document" element={<Document />} />

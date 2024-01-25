@@ -14,7 +14,10 @@ const Navbar = () => {
           <div className="flex justify-between">
             {/* Hamburger Menu */}
             <div className="flex items-center ">
-              <button onClick={() => setIsSidebarOpen(!isSidebarOpen)}>
+              <button
+                onClick={() => setIsSidebarOpen(!isSidebarOpen)}
+                className="h-10  flex justify-center items-center"
+              >
                 {!isSidebarOpen && <MenuIcon className="h-6 w-6" />}
               </button>
             </div>
