@@ -13,13 +13,9 @@ const Navbar = () => {
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex justify-between">
             {/* Hamburger Menu */}
-            <div className="flex items-center py-5 px-2">
+            <div className="flex items-center ">
               <button onClick={() => setIsSidebarOpen(!isSidebarOpen)}>
-                {isSidebarOpen ? (
-                  <ArrowLeftIcon className="h-6 w-6" />
-                ) : (
-                  <MenuIcon className="h-6 w-6" />
-                )}
+                {!isSidebarOpen && <MenuIcon className="h-6 w-6" />}
               </button>
             </div>
           </div>
