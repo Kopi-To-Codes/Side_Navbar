@@ -10,8 +10,8 @@ const Navbar = () => {
     <div>
       {/* Navbar */}
       <nav className="border-b border-gray-300 bg-white-800 text-gray">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="flex justify-between">
+        <div className="mx-auto px-4">
+          <div className="flex">
             {/* Hamburger Menu */}
             <div className="flex items-center ">
               <button
