@@ -64,7 +64,7 @@ const Patient = () => {
         <div className="flex space-x-3">
           <input
             type="text"
-            className="px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+            className="px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent"
             placeholder="Search patients..."
             value={searchTerm}
             onChange={handleSearchChange}
@@ -133,7 +133,7 @@ const Patient = () => {
             <button className="relative inline-flex items-center px-4 py-2 rounded-l-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50">
               Previous
             </button>
-            <button className="z-10 bg-emerald-400 border-gray-400 text-white relative inline-flex items-center px-4 py-2 border text-sm font-medium">
+            <button className="z-10 bg-gray-600 border-gray-400 text-white relative inline-flex items-center px-4 py-2 border text-sm font-medium">
               1
             </button>
             <button className="bg-white border-gray-300 text-gray-500 hover:bg-gray-50 relative inline-flex items-center px-4 py-2 border text-sm font-medium">

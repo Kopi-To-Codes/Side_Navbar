@@ -64,7 +64,7 @@ const Patient = () => {
         <div className="flex space-x-3">
           <input
             type="text"
-            className="px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+            className="px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent"
             placeholder="Search patients..."
             value={searchTerm}
             onChange={handleSearchChange}
